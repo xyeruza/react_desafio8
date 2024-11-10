@@ -1,0 +1,60 @@
+
+
+.banner {
+  background-image: url("./assets/img/header.png");
+  background-size: cover;
+  height: 400px;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7); 
+  z-index: 0;
+}
+
+.texto {
+  z-index: 1;
+}
+
+.navbar .btnav  {
+  border-radius: 5px;
+  border-color: white;
+  border-width: 1px;
+  font-size: 1rem;
+}
+
+.navbar span {
+  margin-right: 10px;
+}
+main, .profile {
+  min-height: 75vh;
+}
+.container.formulario {
+  max-width: 600px;
+}
+
+.btn.active {
+  color: darkorange!important; 
+  background-color: #6b5238!important;
+  border: 0;
+}
+footer {
+  width: 100%;
+  height: 10vh;
+  background-color: rgb(30 35 40);
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  
+}
+footer p {
+  text-align: center;
+  color: white;
+  
+}
